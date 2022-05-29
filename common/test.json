@@ -2,6 +2,7 @@
   {
     "title": "Clothing Closet Volunteer",
     "date": "2022-06-08T11:00:00.000Z",
+    "org": "York W Active Learning Centre",
     "lat": 43.61870207102352,
     "long": -79.53711028068223,
     "desc": "",
@@ -14,6 +15,7 @@
   {
     "title": "Volunteer Soccer Coach",
     "date": "2022-05-30T18:00:00.000Z",
+    "org": "Scarborough East Siders",
     "lat": 43.71052883905604,
     "long": -79.25368043140546,
     "desc": "",
@@ -24,7 +26,8 @@
     "email": "info@scarborougheastsiders.com/"
   },
   {
-    "title": " Extend-A-Family Toronto ",
+    "title": "Art and Music Assistant",
+    "org": "Extend-A-Family Toronto",
     "date": "2022-06-07T10:00:00.000Z",
     "lat": 43.730700795278764,
     "long": -79.40384589623413,
@@ -37,6 +40,7 @@
   },
   {
     "title": "Arabic-Speaking Visitor",
+    "org": "Shepherd Village",
     "date": "2022-06-05T15:00:00.000Z",
     "lat": 43.78249074920805,
     "long": -79.29380291185508,

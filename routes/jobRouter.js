@@ -6,6 +6,7 @@ const { v4: uuid } = require('uuid');
 const JobProps = [
     "title",
     "date",
+    "org",
     "lat",
     "long",
     "desc",
