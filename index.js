@@ -15,7 +15,7 @@ async function initDb() {
     try {
         await sequelize.authenticate();
         console.log("Database connection success");
-        sequelize.sync({ force: 1 });
+        sequelize.sync({ force: 0 });
     } catch (e) {
         console.error(e);
         process.exit(1);
