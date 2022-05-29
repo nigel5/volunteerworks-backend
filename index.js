@@ -30,9 +30,9 @@ async function initServer() {
     app.use(cors());
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
-    app.use('/', require('./routes/indexRouter'))
-    app.use('/job', require('./routes/jobRouter'));
-    app.use('/interests', require('./routes/jobSignupRouter'));
+    app.use('/api', require('./routes/indexRouter'))
+    app.use('/api/job', require('./routes/jobRouter'));
+    app.use('/api/interests', require('./routes/jobSignupRouter'));
 
     app.listen(port, () => {
         console.log(`App started on port ${port}`);
