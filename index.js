@@ -31,7 +31,7 @@ async function initServer() {
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use('/', require('./routes/indexRouter'))
-    app.use('/job', require('./routes/jobRouter'));
+    app.use('/api/job', require('./routes/jobRouter'));
     app.use('/interests', require('./routes/jobSignupRouter'));
 
     app.listen(port, () => {
